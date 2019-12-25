@@ -1,5 +1,6 @@
 body{
 	max-width: 960px;
+	min-width: 500px;
 	padding: 0 30px;
 	margin: 0 auto;
 	border: 2px solid black;
@@ -21,4 +22,38 @@ nav ul li{
 	margin: 10px 0;
 	padding: 30px;
 	line-height: 1.8em;
+	min-width: 400px;
+	min-height: 290px;
+}
+
+.artigo iframe{
+	float: left;
+	margin: 33px;
+}
+
+
+.linksfooter {
+	width: 230px;
+	float: left;
+	height: 350px;
+	padding: 30px 10px;
+}
+
+.linksfooter h3{
+	padding-left: 8px;
+}
+
+.linksfooter ul{
+	list-style-type: none;
+	padding-left: 0;
+}
+
+.linksfooter ul li{
+	padding: 8px;
+}
+
+.textfooter{
+	border-top: 1px solid black;
+	clear: both;
+	padding: 30px 20px;
 }
