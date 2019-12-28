@@ -1,7 +1,6 @@
 body{
 	max-width: 960px;
-	min-width: 500px;
-	padding: 0 30px;
+	padding: 0 20px;
 	margin: 0 auto;
 	border: 2px solid black;
 }
@@ -17,18 +16,50 @@ nav ul li{
 	border: 2px solid black;
 }
 
+#titulo{
+	height: 220px;
+}
+
+#titulo h1{
+	padding: 80px 20px;
+	font-size: 2.5em;
+	text-align: center;
+}
+
 .artigo{
 	border: 2px solid black;
 	margin: 10px 0;
 	padding: 30px;
 	line-height: 1.8em;
-	min-width: 420px;
-	min-height: 300px;
+	min-width: 380px;
+	min-height: 410px;
+	text-align: justify;
 }
 
 .artigo iframe{
 	float: left;
 	margin: 33px;
+}
+
+.caixa1{
+	float: left;
+	width: 380px;
+	height: 420px;
+}
+
+.caixa1 img{
+	width: 300px;
+}
+
+.caixa2{
+	float: right;
+	height: 300px;
+	width: 340px;
+	margin: 40px;
+}
+
+.caixa3{
+	width: 380px;
 }
 
 .linksfooter {
