@@ -16,24 +16,35 @@ nav ul li{
 	border: 2px solid black;
 }
 
-#titulo{
+nav a{
+	text-decoration: none;
+}
+.titulo{
 	height: 220px;
 }
 
-#titulo h1{
+.titulo h1{
 	padding: 80px 20px;
 	font-size: 2.5em;
 	text-align: center;
 }
 
-.artigo{
+.artigo, .classe{
 	border: 2px solid black;
 	margin: 10px 0;
 	padding: 30px;
 	line-height: 1.8em;
 	min-width: 380px;
-	min-height: 410px;
 	text-align: justify;
+}
+
+.classe img{
+	width: 300px;
+	float: left;
+}
+
+.artigo{
+	min-height: 410px;
 }
 
 .artigo iframe{
@@ -80,6 +91,10 @@ nav ul li{
 
 .linksfooter ul li{
 	padding: 8px;
+}
+
+.linksfooter a{
+	text-decoration: none;
 }
 
 .textfooter{
