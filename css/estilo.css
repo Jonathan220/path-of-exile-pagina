@@ -38,6 +38,10 @@ nav a{
 	text-align: justify;
 }
 
+.artigo h2, .classe h2{
+	text-transform: uppercase;
+}
+
 .classe img{
 	width: 300px;
 	float: left;
