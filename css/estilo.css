@@ -2,35 +2,48 @@ body{
 	max-width: 960px;
 	padding: 0 20px;
 	margin: 0 auto;
-	border: 2px solid black;
+	background-color: #000000;
 }
 
 nav{
 	width: 100%;
-	border: 2px solid black;
 	height: 40px;
 	padding: 0px;
 	position: relative;
+	border-bottom: 5px solid #BF793B;
 }
 
 nav ul{
 	position: absolute;
 	width: 100%;
-	border: 2px solid green;
-	margin: 0 auto;
+	margin: 1px auto;
 	padding: 0;
 }
 nav ul li{
 	display: block;
 	float: left;
-	padding: 10px 20px;
-	border: 2px solid black;
-	width: 80px;
+	padding: 10px 10px;
+	width: 120px;
+	text-align: center;
+	background-color: #730202;
+	box-shadow: -1px 1px 1px black;
+}
+
+nav ul li:hover{
+	background-color: #f20505;
 }
 
 nav a{
 	text-decoration: none;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #BF793B;
 }
+
+nav a:hover{
+	color: #D9A84E;
+}
+
 .titulo{
 	height: 220px;
 }
@@ -40,15 +53,27 @@ nav a{
 	font-size: 2.5em;
 	text-align: center;
 	text-transform: uppercase;
+	text-shadow: 2px 2px #D9A84E;
 }
 
 .artigo, .classe{
-	border: 2px solid black;
+	border: 1px dotted #D9A84E;
 	margin: 10px 0;
 	padding: 30px;
 	line-height: 1.8em;
 	min-width: 380px;
 	text-align: justify;
+	color: #e4c181;
+}
+
+.artigo a, .classe a{
+	text-decoration:none;
+	color: #e4c181;
+}
+
+.artigo a:hover, .classe a:hover{
+	color: #f2e0c0;
+	text-decoration: underline;
 }
 
 .artigo h2, .classe h2{
@@ -114,9 +139,16 @@ nav a{
 .linksfooter a{
 	text-decoration: none;
 }
+.linksfooter a:hover{
+	text-decoration:underline;
+}
 
 .textfooter{
 	border-top: 1px solid black;
 	clear: both;
 	padding: 30px 20px;
+}
+
+.linksfooter h3, .linksfooter a, .textfooter{
+	color: #f2e0c0;
 }
